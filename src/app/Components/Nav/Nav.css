@@ -1,0 +1,131 @@
+
+
+
+nav{
+    position: fixed;
+    width: 100%;
+    box-shadow: var(--box-shadow);
+    background: rgba(255, 255, 255, .6);
+    z-index: 222;
+    backdrop-filter: blue(6px);
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+padding: .2rem 0;
+
+
+}
+.logo a{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.logo span{
+    font-size: 2.3rem;
+    font-weight:700;
+color: var(--color-primary);
+
+}.navlist{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+gap:1rem;
+
+
+}
+.navlist li a{
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+}
+.navlist>li>a::after{
+    content: '';
+    position: absolute;
+    height: .14rem;
+    bottom: -.6rem;
+left: 0;right: 0;
+background: var(--color-primary);
+border-radius: .5rem;
+visibility: hidden;
+transform: scaleX(0);
+transition: all .3s cubic-bezier(cubic-bezier(.175, .885, 0.32, 1.275));
+
+
+}
+.navlist li a:hover::after{
+visibility: visible;
+transform: scaleX(1);
+
+}
+.navlist li{
+    position: relative;
+}
+.navlist .submenu{
+    position: absolute;
+    top: 3rem;
+left: 0;
+background: var(--color-text-2);
+width: 11rem;
+box-shadow: var(--box-shadow);
+
+z-index: 111;
+transition: var(--transition);
+visibility: hidden;
+opacity: 0;
+}
+.navlist .submenu li{
+    color: var(--color-text-1);
+    padding: .7rem 0;
+    border-bottom: .1rem solid #fff;
+}
+
+.navlist .submenu li:last-child{
+
+border-bottom: none;
+
+    }
+.navlist li:hover .submenu{
+
+    visibility: visible;
+    opacity: 1;
+}
+.navlist .submenu li:hover{
+
+    color: var(--color-text-2);
+    background: var(--linear-gradient);
+}
+
+.nm-cotainer{
+    display: none;
+}
+
+
+@media (max-width:1050px) {
+    .nav-container{
+        display: none;
+    }
+    .nm-cotainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nm-cotainer .navlist{
+        position: fixed;
+        top: 3.5rem;
+        right: 0;
+        background: var(--color-primary);
+        color: var(--color-text-2);
+        height: 25rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 0;
+        z-index: 222;
+        transition: var(--transition);
+        transform: translateX(150%);
+    }
+    .navlist .submenu{left: 50%;}
+}
+

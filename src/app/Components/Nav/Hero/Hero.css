@@ -1,0 +1,153 @@
+.home-container{
+display: grid;
+
+grid-template-columns: 1fr 1fr;
+gap: 1rem;
+margin-top: 1rem;
+
+}
+.home-container .content{
+    position: relative;
+    top: 8rem;
+    left: 0;
+    text-transform: uppercase;
+}
+.home-container .content h1{
+    padding: .3rem 0;
+}
+.home-container .content h3{
+    color: var(--color-primary);
+}
+.home-container .content p{
+margin-top: 2rem;
+
+
+
+}
+.home-btns {
+display: flex;
+gap: 1rem;
+margin-top: 2.5rem;
+
+
+
+}
+.home-btns .btn-2{
+background: none;
+color: var(--color-text-1);
+border: .15rem solid var(--color-primary);
+
+}
+.home-container .social-icons {
+display: flex;
+    gap: 1rem;
+margin: 2rem 0;
+
+
+}
+.home-container .social-icons a{
+    font-size:  1rem;
+    cursor: pointer;
+    height: 2.2rem;
+    width: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .1rem solid var(--color-primary);
+    color: var(--color-primary);
+    border-radius: 50%;
+    transition: var(--transition);
+}
+.home-container .social-icons a:nth-child(2){
+color: #f9bf3f;
+
+
+}.home-container .social-icons a:nth-child(3){
+
+color: crimson;
+    
+}.home-container .social-icons a:nth-child(4){
+
+color: #777;
+    
+}
+.home-container .social-icons a:hover{
+    color: var(--color-primary);
+}
+.home-container .image img{
+    max-width: 400px;
+    height:500px;
+    border-radius: 200px 27px;
+   border-top: 8px solid #00fedc;
+   border-bottom: 4px solid #06fad9;
+    margin: 60px;
+    filter: drop-shadow(0px 20px 15px #263926);
+animation: anim 1.5s ease-in-out infinite alternate;
+
+}
+@keyframes anim {
+    0%{
+
+        transform: translateX(0);
+    }
+    100%{
+
+        transform: translateX(-10px);
+    }
+}
+@media (max-width:1100px) {
+  .home-container{
+    grid-template-columns: 1fr;
+  }
+  
+  
+    .home-container .content{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .home-container .image{
+
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    
+    }
+
+}
+@media (max-width:768px) {
+    .home-container .image img{
+        max-width: 444px;
+        margin-top: 5rem;
+        
+    }
+    .home-container .content p{
+
+text-align: center;
+
+    }
+
+}
+@media (max-width:570px) {
+   
+    .home-container .image img{
+        max-width: 300px;
+        margin-top: 5rem;
+        max-height: 400px;
+        
+    }
+   
+   
+   
+   
+   
+    .home-container .content h1{
+        font-size: 2rem;
+    }
+    .home-container .content h3{
+font-size: 1.3rem;
+    }
+}

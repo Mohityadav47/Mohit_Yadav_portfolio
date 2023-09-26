@@ -1,0 +1,85 @@
+.services-container{
+
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+}
+.services-container .tab-buttons{
+
+display: grid;
+grid-template-columns: 1fr;
+gap: 1rem;
+border-right: .1rem solid #eee ;
+
+
+
+}
+.services-container .tab-buttons .tab-btns{
+    padding: 1rem;
+    border: .1rem solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 21rem;
+    cursor: pointer;
+    background: #f9bf3f;
+color: var(--color-text-2);
+box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
+
+
+
+}
+.tab-buttons .tab-btns:nth-child(2){
+background: #a84cb8;
+}
+
+.tab-buttons .tab-btns:nth-child(3){
+    background: var(--color-tertiary);
+    }
+    .tab-buttons .tab-btns .tac-icons{
+        font-size: 1.5rem;
+        height: 3rem;
+        width: 3rem;
+        background: var(--color-text-2);
+        color: var(--color-text-1);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+}
+.tab-buttons .tab-btns:hover{
+    transform: translateY(-.1rem);
+
+}
+.services-container .right h3{
+margin-bottom: 2rem;
+}
+
+@media (max-width:1100px) {
+    .services-container{
+        grid-template-columns: 100%;
+    }
+    .services-container.tab-buttons{
+
+        grid-template-columns: repeat(3,1fr);
+        border-right: none;
+    }
+}
+@media (max-width:768px) {
+    
+
+.services-container .tab-buttons{
+
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+}
+.tab-buttons .tab-btns{
+    
+}
+
+
+
+
+
+}
