@@ -42,7 +42,7 @@ des: "project completet"
 
 {
 
-    src: "./project1.png", 
+    src: "./Project1.png", 
     title:"Frontend",
 des:"This is A Restourent website created with a React/Next js ",
 Link:`http://radheykrishnarestaurent-git-main-mohityadav47.vercel.app/`
