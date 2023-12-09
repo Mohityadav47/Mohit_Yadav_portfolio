@@ -35,12 +35,12 @@ const Services = () => {
 
 </div>
 <div className='right'>
-    <h1>Frontend</h1>
+    <h1>MERN STACK</h1>
     <p>
     
-    Frontend web devlopment is the devlopment of the graphical user interface of a webdite , through of the use of HTML ,CSS ,Javascript , so that users can view and intract with that website.
+    Mern Stack  web devlopment is the devlopment of the Dynamic WebSite and Web Application   , through of the use of HTML ,CSS ,Javascript , React js ,Express js Ans MongoDB  , so that users can view and intract with that website.
     </p>
-    <br/><p>Frontend languages are HTML CSS Javascript and Framworks are React, Angular, Svelte, bootstarp</p>
+    <br/><p>Mern Stack languages are HTML CSS Javascript and Framworks are React, Angular, Svelte, bootstarp , Expres js And Database MongoDB</p>
     <br/>
     <p>NEXT JS is a React Framwork that enable features, including server-side rendering and genrating static websites. </p>
     
