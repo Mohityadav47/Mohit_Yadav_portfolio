@@ -57,15 +57,7 @@ Link:`https://pinterest-clone-mohit-yadav.onrender.com/`
 
 
 },
-                {
-
-    src: "./project4.png", 
-    title:"FullStack",
-des:"This is a Pinterest Clone  app project created with Express js Node js MongoDB",
-Link:`https://pinterest-clone-mohit-yadav.onrender.com/`
-
-
-},
+            
 
 
 {
