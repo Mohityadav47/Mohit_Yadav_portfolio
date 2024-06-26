@@ -19,7 +19,7 @@ I have been working as a web devloper for a quit some time now. i believe i am a
 
 </p>
 <div className='home-btns'>
-<a href='/mycv.pdf'><button className='btn'>Downlod cv</button></a>
+<a href='/Mohit_Yadav_resume_01.pdf'><button className='btn'>Downlod cv</button></a>
 <button className='btn btn-2'>Hire me</button>
 
 
