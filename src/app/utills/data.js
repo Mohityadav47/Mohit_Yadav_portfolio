@@ -52,7 +52,7 @@ Link:`http://radheykrishnarestaurent-git-main-mohityadav47.vercel.app/`
 
     src: "./project4.png", 
     title:"FullStack",
-des:"This is a Pinterest Clone  app project created with Express js Node js MongoDB",
+des:"This is a Major project     created with Express js Node js MongoDB",
 Link:`https://pinterest-clone-mohit-yadav.onrender.com/`
 
 
