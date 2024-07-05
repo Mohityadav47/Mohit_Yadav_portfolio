@@ -57,6 +57,15 @@ Link:`https://pinterest-clone-mohit-yadav.onrender.com/`
 
 
 },
+                {
+
+    src: "./Screenshot 2024-07-05 094025.png", 
+    title:"MinorProject",
+des:"This is my minor project, I made it in the 5th sem.",
+Link:`https://minor-project-koi3zn7le-mohityadav47s-projects.vercel.app/`
+
+
+},
             
 
 
@@ -78,15 +87,7 @@ Link:`https://todolist-mohityadav-h2hd2a4zn-mohityadav47.vercel.app/`
 
 
 },
-{
 
-    src: "./Screenshot 2024-07-05 094025.png", 
-    title:"MinorProject",
-des:"This is my minor project, I made it in the 5th sem.",
-Link:`https://minor-project-koi3zn7le-mohityadav47s-projects.vercel.app/`
-
-
-},
 
 
             ]
