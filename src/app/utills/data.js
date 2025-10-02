@@ -48,12 +48,22 @@ des:"This is A Restourent website created with a React/Next js ",
 Link:`http://radheykrishnarestaurent-git-main-mohityadav47.vercel.app/`
 
 
-},{
+}
+                ,{
+
+    src: "./planto.png", 
+    title:"FullStack",
+des:"This is a Major project     created with Express js Node js MongoDB",
+Link:`https://planto-dl573jvoe-mohityadav47s-projects.vercel.app/`
+
+
+}
+                ,{
 
     src: "./project4.png", 
     title:"FullStack",
 des:"This is a Major project     created with Express js Node js MongoDB",
-Link:`https://planto-git-main-mohityadav47s-projects.vercel.app/`
+Link:`https://pinterest-clone-mohit-yadav.onrender.com/`
 
 
 },
