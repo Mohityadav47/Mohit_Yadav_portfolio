@@ -1,7 +1,7 @@
 import { RiCss3Fill  , RiJavascriptFill , RiReactjsFill } from "react-icons/ri";
 export const techData = [
 {
-nmbrs: "3+",
+nmbrs: "10+",
 des: "project completet"
 
 },
@@ -11,7 +11,7 @@ des: "project completet"
     
     },{
         nmbrs: "5+",
-        des: "Happy customer"
+        des: "Happy Client"
         
         },
         {
@@ -39,12 +39,57 @@ des: "project completet"
                     ]
             export const folioData  =[
 
+{
 
+    src: "./Project5.png", 
+    title:"Frontend",
+des:"Developed a complete business website for a physiotherapy clinic in Chennai — includes service pages, appointment booking form, and PHP email backend for patient inquiries.",
+Link:`https://www.movephysiocare.com/`
+
+
+}
+                ,{
+
+    src: "./Project6.png", 
+    title:"Frontend",
+des:"Built a professional website for a 3-branch dental clinic chain in Chennai — includes 16+ service pages, doctor profiles, and WhatsApp booking system.",
+Link:`https://greenink.xlmanagementservices.in/index`
+
+
+}
+                ,{
+
+    src: "./Project7.png", 
+    title:"Frontend",
+des:"Built a professional website for a 3-branch dental clinic chain in Chennai — includes 16+ service pages, doctor profiles, and WhatsApp booking system. ",
+Link:`cmdental.in`
+
+
+}
+                ,{
+
+    src: "./Project8.png", 
+    title:"Frontend",
+des:"Developed a professional multi-page website for a dental clinic in Mogappair, Chennai — includes 10+ service pages, patient testimonials, FAQ section, and WhatsApp appointment booking integration.",
+Link:`https://whiteberrydental.com/`
+
+
+}
+                ,{
+
+    src: "./Project9.png", 
+    title:"Frontend",
+des:"Built a comprehensive dental hospital website for a clinic in Gulbarga, Karnataka — includes 15+ service pages covering oral surgery, implants, cosmetic dentistry, and online appointment booking via WhatsApp.",
+Link:`https://surakshadentalhospital.co.in/index.html`
+
+
+}
+                ,
 {
 
     src: "./Project1.png", 
     title:"Frontend",
-des:"This is A Restourent website created with a React/Next js ",
+des:"Full-stack restaurant web app with menu browsing, add-to-cart, user authentication, and online ordering system built on MERN Stack. ",
 Link:`http://radheykrishnarestaurent-git-main-mohityadav47.vercel.app/`
 
 

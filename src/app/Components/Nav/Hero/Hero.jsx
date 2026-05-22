@@ -14,12 +14,10 @@ const Hero = () => {
 <h4>Hello</h4>
 <h1>i aM  MOHIT</h1>
 <p>
-
-I have been working as a web devloper for a quit some time now. i believe i am a very ambitious person who loves to work on making the website work well.
-
+Full Stack Web Developer specializing in MERN Stack and PHP. Delivered 4-5 live client websites
 </p>
 <div className='home-btns'>
-<a href='/Mohit_Yadav_resume_01.pdf'><button className='btn'>Downlod cv</button></a>
+<a href='/Mohit_Yadav_resume_01.pdf'><button className='btn'>Download cv</button></a>
 <button className='btn btn-2'>Hire me</button>
 
 
