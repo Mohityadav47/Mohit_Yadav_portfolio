@@ -17,7 +17,7 @@ const Hero = () => {
 Full Stack Web Developer specializing in MERN Stack and PHP. Delivered 4-5 live client websites
 </p>
 <div className='home-btns'>
-<a href='/Mohit_Yadav_resume_01.pdf'><button className='btn'>Download cv</button></a>
+<a href='/Mohit_Yadav_Resume (1).pdf'><button className='btn'>Download cv</button></a>
 <button className='btn btn-2'>Hire me</button>
 
 

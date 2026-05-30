@@ -39,6 +39,17 @@ des: "project completet"
                     ]
             export const folioData  =[
 
+
+                {
+
+    src: "./Project10.png", 
+    title:"Frontend+ Backend",
+des:"Redesigned full company website including HR Solutions and Software Solutions pages — complete frontend + backend. Integrated Razorpay payment gateway with frontend checkout and backend order verification. Built PHP email backend for lead generation forms.",
+Link:`https://new.xlmanagementservices.in/`
+
+
+},
+
 {
 
     src: "./Project5.png", 
