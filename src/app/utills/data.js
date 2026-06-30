@@ -42,6 +42,15 @@ des: "project completet"
 
                 {
 
+    src: "./Project11.png", 
+    title:"Frontend+ Backend",
+des:"Built Why Choose Us, Our Facilities and Our Team pages — fully responsive design with professional UI for a physiotherapy clinic in Bangalore.",
+Link:`https://sparcphysio.com.in/`
+
+
+},
+                {
+
     src: "./Project10.png", 
     title:"Frontend+ Backend",
 des:"Redesigned full company website including HR Solutions and Software Solutions pages — complete frontend + backend. Integrated Razorpay payment gateway with frontend checkout and backend order verification. Built PHP email backend for lead generation forms.",
